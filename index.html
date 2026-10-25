@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ID Photo Maker – Privacy Policy</title>
+    <meta name="description" content="Privacy policy for the ID Photo Maker Android app by Tinypeak Studio." />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #ffffff;
+        --text: #1f2328;
+        --muted: #59636e;
+        --border: #d1d9e0;
+        --surface: #f6f8fa;
+        --accent: #0969da;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0d1117;
+          --text: #e6edf3;
+          --muted: #9198a1;
+          --border: #3d444d;
+          --surface: #151b23;
+          --accent: #4493f8;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          17px/1.6 -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          'Helvetica Neue',
+          Arial,
+          sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 24px 16px 64px;
+      }
+      h1 {
+        font-size: 1.75rem;
+        line-height: 1.25;
+        margin: 0 0 12px;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin: 36px 0 8px;
+        padding-top: 16px;
+        border-top: 1px solid var(--border);
+      }
+      p,
+      ul {
+        margin: 0 0 12px;
+      }
+      ul {
+        padding-left: 1.25em;
+      }
+      li {
+        margin-bottom: 6px;
+      }
+      a {
+        color: var(--accent);
+        overflow-wrap: anywhere;
+      }
+      .meta {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 12px 16px;
+        margin: 0 0 20px;
+      }
+      .meta p {
+        margin: 0;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .summary {
+        background: var(--surface);
+        border-left: 4px solid var(--accent);
+        border-radius: 6px;
+        padding: 12px 16px;
+      }
+      .table-wrap {
+        overflow-x: auto;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.95rem;
+      }
+      th,
+      td {
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid var(--border);
+        padding: 8px 10px;
+      }
+      th {
+        background: var(--surface);
+      }
+      code {
+        font-size: 0.9em;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy – ID Photo Maker</h1>
+
+      <div class="meta">
+        <p><strong>Last updated:</strong> 25 October 2026</p>
+        <p><strong>App:</strong> ID Photo Maker (Android), package <code>com.tinypeakstudio.passportphoto</code></p>
+        <p><strong>Developer:</strong> Tinypeak Studio</p>
+        <p><strong>Contact:</strong> <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+      </div>
+
+      <p>
+        ID Photo Maker helps you make passport, visa and ID photos and scanned signatures that match official size
+        rules. This policy explains what data the app handles and why.
+      </p>
+
+      <div class="summary">
+        <p><strong>In short:</strong></p>
+        <ul>
+          <li>Your photos and signatures are processed on your phone and are <strong>never uploaded</strong>.</li>
+          <li>There are <strong>no accounts</strong>: we never ask for your name, email or a password.</li>
+          <li>
+            The app uses Google AdMob (ads), Firebase Crashlytics (crash reports) and Google Analytics for Firebase
+            (anonymous usage statistics). None of them receive your photos.
+          </li>
+        </ul>
+      </div>
+
+      <h2 id="on-device">1. Your photos and signatures stay on your phone</h2>
+      <ul>
+        <li>
+          All photo processing happens <strong>on your device</strong>: background removal, face detection, cropping,
+          quality checks, signature clean-up and compression.
+        </li>
+        <li>
+          Your photos and signatures are <strong>never uploaded</strong> to us or to anyone else. We do not run any
+          server that receives them.
+        </li>
+        <li>
+          Face detection and background removal use Google ML Kit models that run <strong>on the device</strong>. The
+          background-removal model may be downloaded once by Google Play services; this download contains no data about
+          you or your photos.
+        </li>
+        <li>
+          While you work, images are kept only in the app's <strong>private storage</strong> on your phone. This storage
+          is not part of your gallery and other apps cannot read it.
+        </li>
+        <li>
+          <strong>Your last photo (and last signature) is kept on the device for up to 24 hours</strong> so it can be
+          restored if Android closes the app, for example while you share it. It is then
+          <strong>deleted automatically</strong>. It is also deleted as soon as you start a new photo or signature.
+        </li>
+        <li>
+          Images leave the app's private storage only when <strong>you</strong> choose to save them to your gallery or
+          share them with another app.
+        </li>
+        <li>The app does not create or store face templates or biometric identifiers.</li>
+      </ul>
+
+      <h2 id="permissions">2. Permissions</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Camera</td>
+              <td>
+                To take your ID photo or a photo of your signature. Used only while the camera screen is open.
+              </td>
+            </tr>
+            <tr>
+              <td>Photos (system photo picker)</td>
+              <td>To open a photo <strong>you</strong> pick. The app cannot browse your gallery.</td>
+            </tr>
+            <tr>
+              <td>Storage (Android 9 and older only)</td>
+              <td>To save the finished file to your gallery. Newer Android versions need no permission for this.</td>
+            </tr>
+            <tr>
+              <td>Internet</td>
+              <td>
+                To show ads, to download the on-device background model, and to send crash reports and anonymous usage
+                statistics. Never used for your photos or signatures.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="ads">3. Advertising (Google AdMob)</h2>
+      <p>
+        The app is free and shows ads through <strong>Google AdMob</strong>: a banner on the home screen, and a short
+        rewarded video that unlocks saving, sharing and printing of each photo or signature.
+      </p>
+      <ul>
+        <li>
+          AdMob may collect your device's <strong>advertising ID</strong>, IP address, approximate location derived from
+          the IP address, device and app information, and ad interaction data, to show and measure ads and to prevent
+          fraud.
+        </li>
+        <li>
+          <strong>In the European Economic Area, the UK and Switzerland</strong>, the app shows Google's consent form
+          (UMP) at start-up, and no ad is requested before you have answered it. If you do not consent to personalised
+          ads, only <strong>non-personalised ads</strong> are shown. You can change your choice at any time in
+          <strong>Settings → Privacy choices</strong>.
+        </li>
+        <li>
+          You can reset or delete your advertising ID in your Android settings (Settings → Google → Ads, or Settings →
+          Privacy → Ads).
+        </li>
+        <li>
+          Google's privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. How
+          Google uses data from partner apps:
+          <a href="https://policies.google.com/technologies/partner-sites"
+            >policies.google.com/technologies/partner-sites</a
+          >.
+        </li>
+      </ul>
+
+      <h2 id="crash-reports">4. Crash reports (Firebase Crashlytics)</h2>
+      <p>
+        <strong>Firebase Crashlytics</strong> (Google) collects crash and error information so we can fix bugs: device
+        model, Android version, app version, a crash stack trace, and a random installation identifier. Crashes are
+        reported automatically. Crash reports <strong>never</strong> include your photos or signatures. You can turn crash
+        reports off in <strong>Settings → Send crash reports</strong>.
+      </p>
+
+      <h2 id="analytics">5. Usage statistics (Google Analytics for Firebase)</h2>
+      <p>
+        <strong>Google Analytics for Firebase</strong> collects anonymous usage information so we can see how many people
+        use the app and which features they use: app opens, how long the app is used, which screens of the app are opened
+        (for example "Settings"), which document type a photo was made for (for example "US passport"), whether a file
+        was saved or shared, device model, Android version, app version, country (derived from the IP address) and a
+        random app-instance identifier.
+      </p>
+      <ul>
+        <li>Usage statistics <strong>never</strong> include your photos, signatures, file names or anything you type.</li>
+        <li>
+          The app does <strong>not</strong> give Analytics your advertising ID or Android ID, and the data is not used for
+          advertising.
+        </li>
+        <li>
+          <strong>In the European Economic Area, the UK and Switzerland</strong>, usage statistics are collected only after
+          you agree on the consent form the app shows at start-up (storing information on your device and measuring
+          content performance). You can change this at any time in <strong>Settings → Privacy choices</strong>.
+          Everywhere else they are on by default.
+        </li>
+        <li>
+          You can turn usage statistics off in <strong>Settings → Share usage statistics</strong>. "Delete all data" in
+          Settings also starts a new random identifier.
+        </li>
+      </ul>
+      <p>
+        Firebase privacy information:
+        <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.
+      </p>
+
+      <h2 id="data-we-receive">6. Data we receive</h2>
+      <p>
+        We (Tinypeak Studio) do not receive your photos, signatures, name, contact details or account information. We
+        only see the anonymous totals from usage statistics and crash reports described above.
+        <strong>The app has no accounts.</strong> If you email us for support, we receive what you choose to send and use
+        it only to answer you.
+      </p>
+
+      <h2 id="sharing">7. Data sharing and selling</h2>
+      <p>
+        We do not sell your data. Data collected by AdMob, Crashlytics and Analytics is processed by Google as described
+        above.
+      </p>
+
+      <h2 id="retention">8. Data retention and deletion</h2>
+      <p>
+        Photos and signatures are stored only on your device, in the app's private storage, for at most 24 hours (see
+        section 1); copies prepared for saving or sharing are deleted on the same schedule. You can delete them at any
+        time in <strong>Settings → Your data</strong> (the photo or signature in progress, saved custom sizes, or all
+        data). Uninstalling the app or clearing its storage also deletes them immediately. Files you saved to your
+        gallery or shared stay where you put them. Ad, crash and usage-statistics data are retained by Google according
+        to its policies; Analytics data is kept for 2 months.
+      </p>
+
+      <h2 id="children">9. Children</h2>
+      <p>
+        The app is not directed at children under 13 and does not knowingly collect personal information from children.
+      </p>
+
+      <h2 id="government">10. Not affiliated with any government</h2>
+      <p>
+        ID Photo Maker is not affiliated with any government agency. Requirements change: always check the current rules
+        with the office that will receive your photo.
+      </p>
+
+      <h2 id="changes">11. Changes</h2>
+      <p>
+        We may update this policy. The date at the top shows the latest version. Significant changes will be noted in the
+        app's release notes.
+      </p>
+
+      <h2 id="contact">12. Contact</h2>
+      <p>Questions about this policy: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+    </main>
+  </body>
+</html>
